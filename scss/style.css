@@ -10,7 +10,7 @@ body {
 }
 
 .gameContainer {
-  width: 600px;
+  width: 800px;
   height: 600px;
   margin: auto;
   display: flex;
@@ -19,9 +19,9 @@ body {
 }
 
 .memoryCard {
-  width: 23%;
+  margin-left: 10px;
   height: 23%;
-  margin: 5px;
+  margin-bottom: 10px;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.3s;
@@ -32,6 +32,7 @@ body {
   transform: scale(0.95);
   transition: transform 0.2s ease-in-out;
 }
+
 
 .memoryCard.flip {
   transform: rotateY(180deg);
